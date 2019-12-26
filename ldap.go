@@ -163,7 +163,7 @@ func generateJWT(username string, orgID string) (webToken string, err error) {
 					claims := customClaims{
 						jwt.StandardClaims{
 							ExpiresAt: time.Now().Add(time.Hour).Unix(),
-							Issuer:    "PDE",
+							Issuer:    "Aegis",
 						},
 						tokenPerm,
 					}

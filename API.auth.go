@@ -105,7 +105,7 @@ func authenticateUser(loginReq *loginReq, wrapper *errorWrapper) (obj interface{
 				wrapper.addError(err, authenticationError)
 			}
 		} else {
-			err = errors.Errorf("could not find user with the username %s in the PDE database", loginReq.Username)
+			err = errors.Errorf("could not find user with the username %s in the Aegis database", loginReq.Username)
 			wrapper.addError(err, authenticationError)
 		}
 	} else {

@@ -321,7 +321,7 @@ func listenForMessagesFromJobToSendToClient(w http.ResponseWriter, r *http.Reque
 							_ = connection.WriteJSON(message)
 						}
 					} else {
-						fmt.Println("Request with empty user came from pde job")
+						fmt.Println("Request with empty user came from Aegis job")
 					}
 
 				}

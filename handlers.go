@@ -133,7 +133,7 @@ var (
 	// AppConfig holds relevant fields from the app config
 	AppConfig listenerConfig
 
-	// WorkingDir defines the path to the PDE directory, this is used over os.WorkingDir() as it is inconsistent
+	// WorkingDir defines the path to the Aegis directory, this is used over os.WorkingDir() as it is inconsistent
 	WorkingDir string
 
 	// OrgADConfigs holds the AD configurations for each organization. The AD configuration from the root of an
