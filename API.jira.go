@@ -122,7 +122,7 @@ func getFieldMaps(w http.ResponseWriter, r *http.Request) {
 							backendFieldsAndCustomFields.CustomFields = customFields
 							backendFieldsAndCustomFields.BackendFields = jira.MappableFields
 
-							// TODO CERFEXPIRATION is not returned from the API because it is not a part of the VRR project
+							// TODO CERFEXPIRATION is not returned from the API because it is not a part of the Aegis project
 							// TODO we grab the expiration date from the CERF project and use it to populate the field
 							const backendCERFExpiration = "Actual Expiration Date"
 							backendFieldsAndCustomFields.CustomFields = append(backendFieldsAndCustomFields.CustomFields, backendCERFExpiration)
