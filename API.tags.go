@@ -3,12 +3,12 @@ package endpoints
 import (
 	"fmt"
 	"github.com/gorilla/mux"
-	"net/http"
-	"regexp"
-	"sort"
 	"github.com/nortonlifelock/domain"
 	"github.com/nortonlifelock/implementations"
 	"github.com/nortonlifelock/integrations"
+	"net/http"
+	"regexp"
+	"sort"
 	"strings"
 )
 

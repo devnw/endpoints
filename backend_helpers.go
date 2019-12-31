@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/nortonlifelock/crypto"
 	"github.com/nortonlifelock/domain"
+	"github.com/pkg/errors"
 )
 
 // These consts tie an endpoint to it's method. It's used to discern which apiRequest landed at which endpoint in the DBLog table

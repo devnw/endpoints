@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 	"github.com/gorilla/websocket"
+	"github.com/nortonlifelock/domain"
 	"math"
 	"net/http"
-	"github.com/nortonlifelock/domain"
 	"strings"
 )
 

@@ -1,9 +1,9 @@
 package endpoints
 
 import (
+	"github.com/nortonlifelock/domain"
 	"github.com/pkg/errors"
 	"net/http"
-	"github.com/nortonlifelock/domain"
 )
 
 func getAllJobs(w http.ResponseWriter, r *http.Request) {

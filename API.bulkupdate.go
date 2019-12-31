@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/pkg/errors"
 	"github.com/nortonlifelock/domain"
 	"github.com/nortonlifelock/files"
 	"github.com/nortonlifelock/implementations"
+	"github.com/pkg/errors"
 )
 
 const (

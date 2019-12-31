@@ -3,9 +3,9 @@ package endpoints
 import (
 	"fmt"
 	"github.com/gorilla/mux"
+	"github.com/nortonlifelock/domain"
 	"github.com/pkg/errors"
 	"net/http"
-	"github.com/nortonlifelock/domain"
 	"strings"
 	"time"
 )

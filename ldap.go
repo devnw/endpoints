@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
+	"github.com/nortonlifelock/database/dal"
+	"github.com/nortonlifelock/domain"
 	"github.com/pkg/errors"
 	auth "gopkg.in/korylprince/go-ad-auth.v2"
 	"gopkg.in/ldap.v3"
-	"github.com/nortonlifelock/database/dal"
-	"github.com/nortonlifelock/domain"
 )
 
 type customClaims struct {

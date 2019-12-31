@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pkg/errors"
 	"github.com/nortonlifelock/database/dal"
 	"github.com/nortonlifelock/domain"
+	"github.com/pkg/errors"
 )
 
 type (

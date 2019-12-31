@@ -3,8 +3,8 @@ package endpoints
 import (
 	"encoding/json"
 	"fmt"
-	"net/http"
 	"github.com/nortonlifelock/domain"
+	"net/http"
 	"strings"
 	"time"
 )

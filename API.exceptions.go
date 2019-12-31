@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/pkg/errors"
 	"github.com/nortonlifelock/domain"
+	"github.com/pkg/errors"
 )
 
 func createException(w http.ResponseWriter, r *http.Request) {

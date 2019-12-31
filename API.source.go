@@ -3,14 +3,14 @@ package endpoints
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/pkg/errors"
-	"net/http"
 	"github.com/nortonlifelock/crypto"
 	"github.com/nortonlifelock/domain"
 	"github.com/nortonlifelock/jira"
+	"github.com/pkg/errors"
+	"net/http"
 	//nexpose "github.com/nortonlifelock/drivers/nexpose/connector"
-	qualys "github.com/nortonlifelock/qualys/connector"
 	"github.com/nortonlifelock/integrations"
+	qualys "github.com/nortonlifelock/qualys/connector"
 	"strconv"
 	"strings"
 )

@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/pkg/errors"
 	"github.com/nortonlifelock/domain"
+	"github.com/pkg/errors"
 )
 
 func getAGForTicket(w http.ResponseWriter, r *http.Request) {

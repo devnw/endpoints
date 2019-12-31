@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/pkg/errors"
 	"github.com/nortonlifelock/domain"
-	"github.com/nortonlifelock/jira"
 	"github.com/nortonlifelock/integrations"
+	"github.com/nortonlifelock/jira"
 	"github.com/nortonlifelock/log"
+	"github.com/pkg/errors"
 )
 
 var ticketingConnectionMap map[string]map[string]integrations.TicketingEngine

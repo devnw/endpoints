@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
-	"github.com/pkg/errors"
 	"github.com/nortonlifelock/crypto"
 	"github.com/nortonlifelock/database/dal"
 	"github.com/nortonlifelock/domain"
+	"github.com/pkg/errors"
 )
 
 // because a user may belong to many organizations, we do not encrypt the user fields using an organization-specific key

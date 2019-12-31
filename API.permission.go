@@ -3,9 +3,9 @@ package endpoints
 import (
 	"encoding/json"
 	"github.com/gorilla/mux"
-	"net/http"
 	"github.com/nortonlifelock/database/dal"
 	"github.com/nortonlifelock/domain"
+	"net/http"
 	"strings"
 )
 
